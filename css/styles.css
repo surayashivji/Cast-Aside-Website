@@ -1,0 +1,140 @@
+* {
+    /* --color-bg: #000000;
+    --color-text: #fff; */
+}
+
+body {
+    --color-bg: #F5DEB3;
+	--color-text-blue: #191970;
+    --color-text: #000000;
+    --font-text: ApercuRegular;
+    --font-bold: ApercuBold;
+    --font-mono: ApercuMono;
+    background-color: var(--color-bg);
+}
+
+.content-row {
+    margin-top: 10vh;
+}
+
+@font-face {
+    font-family: ApercuRegular;
+    src: url(../assets/fonts/apercu_regular_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: ApercuRegularItalic;
+    src: url(../assets/fonts/apercu_regular_italic_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: ApercuMono;
+    src: url(../assets/fonts/apercu_mono_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: ApercuMedium;
+    src: url(../assets/fonts/apercu_medium_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: ApercuMediumItalic;
+    src: url(../assets/fonts/apercu_medium_italic_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: ApercuBold;
+    src: url(../assets/fonts/apercu_bold_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: ApercuBoldItalic;
+    src: url(../assets/fonts/apercu_bold_italic_pro.otf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Florsn42;
+    src: url(../assets/fonts/Florsn42.ttf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Florsn41;
+    src: url(../assets/fonts/Florsn41.ttf);
+    font-style: normal;
+  }
+
+  .body-text {
+      font-family: var(--font-text);
+      color: var(--color-text-blue);
+      font-size: 1.75rem;
+      line-height: 1.75;
+  }
+
+  .about-img {
+      width: 450px;
+      margin: 0 auto;    
+      display: block;
+  }
+
+  .title-text {
+    font-family: var(--font-bold);
+    color: var(--color-text-blue);
+    font-size: 5rem;
+    padding: 30px 0px;
+  }
+
+  .thick-line {
+    color: var(--color-text-blue);
+    height: 3px;
+    width: 200px;
+    background-color: var(--color-text-blue);
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .inner-heading-text {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 5px;
+  }
+
+  .inner-heading {
+      width: 260px;
+  }
+
+  .about-content {
+    margin-left: 10vw;
+  }
+
+  
+@media only screen and (max-width: 40em) {
+    .about-img {
+        width: 75vw;
+        padding: 40px 0px;
+    }
+
+    .content-row {
+        margin-top: 4vh;
+    }
+
+    .about-content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+      }
+
+    .title-text {
+        font-size: 5rem;
+        padding: 30px 0px;
+        line-height: 1.2em;
+    }
+ }
