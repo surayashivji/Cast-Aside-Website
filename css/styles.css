@@ -87,10 +87,6 @@ body {
     margin-bottom: 0 !important;
   }
 
-  .mainmenu-btns {
-    height: 50px;
-  }
-
   .body-text {
       font-family: var(--font-text);
       color: var(--color-text-blue);

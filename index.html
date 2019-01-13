@@ -15,65 +15,101 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/block.css" />
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this website in a modern browser that supports CSS Variables.");</script>
 </head>
 
-<body>
-    <nav>
-        <input type="checkbox" id="nav" class="hidden" />
-        <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
-        <div class="nav-container">
-            <ul class="mainmenu-btns">
-                <li><a href="index.html"><img class="nav-logo" src="assets/logo.png"></a></li>
-                <li class="nav-btn-g"><a href="episodes.html" href="#">episodes</a></li>
-                <li class="nav-btn-g"><a href="about.html">about</a></li>
-                <li class="nav-btn-g"><a href="contact.html">contact</a></li>
-                <li><a class="subscribe-btn" href="#">subscribe</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- <div class="row">
+<body class="demo-overview">
+    <main>
+        <nav>
+            <input type="checkbox" id="nav" class="hidden" />
+            <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+            <div class="nav-container">
+                <ul class="mainmenu-btns">
+                    <li><a href="index.html"><img class="nav-logo" src="assets/logo.png"></a></li>
+                    <li class="nav-btn-g"><a href="episodes.html" href="#">episodes</a></li>
+                    <li class="nav-btn-g"><a href="about.html">about</a></li>
+                    <li class="nav-btn-g"><a href="contact.html">contact</a></li>
+                    <li><a class="subscribe-btn" href="#">subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-6">
+                <section class="content content--full flexy intro">
+                    <h2 class="content__title content__title--center">
+                        <div id="rev-1" class="content__title__inner">cast aside</div><br />
+                        <div id="rev-2" class="content__title__inner content-small content__title__inner--offset-1">by jameel shivji</div>
+                    </h2>
+                </section>
+            </div>
+            <div class="col-md-6">
 
-    </div> -->
-    <footer>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 box">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fas fa-podcast"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="row text-center">
-                <div class="col-md-12 box">
-                    <span class="copyright quick-links">Copyright &copy; Jameel Shivji
-                        <script>document.write(new Date().getFullYear())</script>
-                    </span>
-                </div>
             </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/charming.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/demo.js"></script>
+        <div class="row">
+            <!-- <div id="instagram-feed1" class="instagram_feed"></div> -->
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 box">
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.instagram.com/podcastaside/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fas fa-podcast"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <div class="row text-center">
+                    <div class="col-md-12 box">
+                        <span class="copyright quick-links">Copyright &copy; Jameel Shivji
+                            <script>document.write(new Date().getFullYear())</script>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/anime.min.js"></script>
+        <script src="js/scrollMonitor.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/block.js"></script>
+        <script type="text/javascript" src="js/jquery.instagramFeed.min.js"></script>
+        <script type="text/javascript">
+                (function ($) {
+                    $(window).on('load', function () {
+                        $.instagramFeed({
+                            'username': 'jameelshivji',
+                            'container': "#instagram-feed1",
+                            'display_profile': false,
+                            'display_biography': false,
+                            'display_gallery': true,
+                            'get_raw_json': false,
+                            'callback': null,
+                            'styling': true,
+                            'items': 8,
+                            'items_per_row': 4,
+                            'margin': 1
+                        });
+                    });
+                })(jQuery);
+        </script>
+    </main>
 </body>
 
 </html>
