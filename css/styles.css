@@ -121,16 +121,17 @@ input {
     margin-top: 10vh;
   }
 
-  nav {
-    position: absolute;
-  }
-
   .right-img {
-    width: 700px;
+    width: 50vw;
     position: absolute;
     left: 0;
-    opacity: 0.75;
     top: 0;
+    margin-top: -10vh;
+    z-index: -500;
+  }
+
+  ul {
+    margin-bottom: 0 !important;
   }
 
   .body-text {
@@ -138,6 +139,14 @@ input {
       color: var(--color-text-blue);
       font-size: 1.75rem;
       line-height: 1.75;
+  }
+
+  .home-blurb {
+    margin: 0 15vh;
+    font-family: var(--font-text);
+    color: var(--color-text);
+    font-size: 1.75rem;
+    line-height: 1.75;
   }
 
   .about-img {
@@ -344,8 +353,10 @@ input {
 
 @media only screen and (max-width: 40em) {
     .right-img {
-      width: 80vh;
-      opacity: 0.35;
+      height: 100vh;
+      width: auto;
+      opacity: 0.4;
+      z-index: -500;
     }
     .right-cont {
       margin-top: 0vh !important;

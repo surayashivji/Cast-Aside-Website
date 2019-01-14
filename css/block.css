@@ -20,11 +20,6 @@ body {
 	}
 }
 
-.content.intro {
-	/* height: 93vh; */
-	padding-top: 20vh;
-}
-
 .block-revealer__element {
 	position: absolute;
 	top: 0;
@@ -61,8 +56,11 @@ body {
 }
 
 .content--full {
-	height: 100vh;
-	min-height: 600px;
+	margin-bottom: 50px;
+}
+
+.content.intro {
+	padding-top: 20vh;
 }
 
 .flexy {
@@ -113,7 +111,7 @@ body {
 }
 
 .content__title--center {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 .content__title--right {
