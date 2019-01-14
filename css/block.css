@@ -21,7 +21,8 @@ body {
 }
 
 .content.intro {
-	height: 93vh;
+	/* height: 93vh; */
+	padding-top: 20vh;
 }
 
 .block-revealer__element {
@@ -90,14 +91,14 @@ body {
 }
 
 .content__title {
-	font-size: 6.5vw;
+	font-size: 7vw;
 	padding: 0 5vw;
 	font-family: ApercuBold;
 	line-height: 0.7;
 }
 
 .content-small {
-	font-size: 2vw !important;
+	font-size: 2.2vw !important;
 	font-family: Florsn42;
 }
 
@@ -251,6 +252,9 @@ body {
 }
 
 @media screen and (max-width: 50em) {
+	.content.intro {
+		padding-top: 9vh !important;
+	}
 	.demo {
 		font-size: 1em;
 		margin: 0.5em 1em 0.25em 0;
@@ -259,7 +263,15 @@ body {
 		min-height: 0;
 	}
 	.content__title {
-		font-size: 2em;
+		font-size: 4.1em;
+		line-height: 0.7;
+	}
+	.content-small {
+		font-size: 0.5em !important;
+	}
+	.content__title__inner--offset-1 {
+		top: 0.3em;
+    	left: 0vw;
 	}
 	.content__title--medium  {
 		font-size: 1.75em;

@@ -1,16 +1,15 @@
 nav {
 	padding: 30px;
+	position: absolute;
 }
 
 nav ul {
-	float: right;
 	padding-right: 50px;
-	/* margin-bottom: 100px; */
+	/* right: 0; */
 }
 
 nav ul li {
 	display: inline-block;
-	float: left;
 	padding: 0px 20px;
 }
 

@@ -9,8 +9,6 @@ body {
 	--color-bg: #F5DEB3;
 	--color-blue: #191970;
 	--color-black: #000000;
-
-
 	--color-link-hover: #0b44fb;
 	--color-blocklink: #515151;
 	--color-blocklink-hover: #fff;
@@ -24,8 +22,6 @@ body {
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
-
 	--font-title: ApercuBold;
 	--font-body: ApercuRegular;
 }
@@ -174,7 +170,7 @@ main {
 }
 
 .content__text-link:first-of-type {
-	color: #f7e300;
+	color: #e51679;
 }
 
 .content__text-link:nth-of-type(2) {
@@ -182,11 +178,11 @@ main {
 }
 
 .content__text-link:nth-of-type(3) {
-	color: #e51679;
+	color: #00d1d8;
 }
 
 .content__text-link:nth-of-type(4) {
-	color: #fff;
+	color: #ff2626;
 }
 
 .content__text-link:nth-of-type(5) {
@@ -332,7 +328,6 @@ a.content__text-link[data-fx="10"]:hover::after {
 		z-index: 10000;
 		top: 0;
 		left: 0;
-		/* display: grid; */
 		align-content: space-between;
 		width: 100%;
 		max-width: none;

@@ -1,15 +1,49 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
 body {
     --color-bg: #F5DEB3;
 	  --color-text-blue: #191970;
     --color-text: #000000;
+    --color-white: #FFFFFF;
     --font-text: ApercuRegular;
     --font-bold: ApercuBold;
     --font-mono: ApercuMono;
     background-color: var(--color-bg);
 }
 
+.content-input {
+  overflow: hidden; 
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20vh;
+}
+
 .content-row {
     margin-top: 10vh;
+}
+
+.field {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+input {
+  width: 200px;
+}
+
+.home-container {
+  padding: 0 8vw;
+  margin: 30px 0;
+}
+
+.instagram-row {
+  background-color: var(--color-bg);
+}
+
+.episodes-row {
+  background-color: white;
 }
 
 @font-face {
@@ -83,8 +117,20 @@ body {
     color: var(--color-bg);
   }
 
-  ul {
-    margin-bottom: 0 !important;
+  .right-cont {
+    margin-top: 10vh;
+  }
+
+  nav {
+    position: absolute;
+  }
+
+  .right-img {
+    width: 700px;
+    position: absolute;
+    left: 0;
+    opacity: 0.75;
+    top: 0;
   }
 
   .body-text {
@@ -95,7 +141,7 @@ body {
   }
 
   .about-img {
-      width: 450px;
+      width: 620px;
       margin: 0 auto;    
       display: block;
   }
@@ -105,6 +151,70 @@ body {
     color: var(--color-text-blue);
     font-size: 5rem;
     padding: 30px 0px;
+  }
+
+  .small-title {
+    font-family: var(--font-mono);
+    color: var(--color-text);
+    font-size: 1.5rem;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+  }
+
+  .light-c {
+    color: var(--color-white) !important;
+    text-align: center;
+  }
+
+  .regular-btn {
+    width: 150px;
+    padding: 10px 0px;
+    font-size: 2rem;
+    background-color: var(--color-white);
+    font-family: var(--font-text);
+    color: var(--color-text-blue);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: var(--color-text-blue);
+  }
+
+  .btn-home {
+    font-family: var(--font-text);
+    width: 150px;
+    font-size: 1.35rem;
+    letter-spacing: 2.5px;
+    border-radius: 0px;
+    padding: 10px 0;
+  }
+
+  input {
+    height: 40px;
+  }
+
+  .medium-title {
+    font-family: var(--font-bold);
+    color: var(--color-text);
+    font-size: 3rem;
+  }
+
+  .body-large {
+    font-family: var(--font-text);
+    color: var(--color-text);
+    font-size: 2.75rem;
+    padding-top: 25vh;
+  }
+
+  .signup {
+    background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("../assets/signup.jpeg");
+    background-size: cover;
+    padding: 40px;
+  }
+
+  .instagram_profile_image {
+    width: 100px;
+    border-radius: 100px;
   }
 
   .thick-line {
@@ -174,7 +284,7 @@ body {
   .footer-column .nav-item span.footer-title {
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
+    color: var(--color-white);
     text-transform: uppercase;
   }
 
@@ -198,7 +308,7 @@ body {
   
   ul.social-buttons li a:focus,
   ul.social-buttons li a:hover {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
   }
   
   ul.social-buttons li a {
@@ -213,7 +323,7 @@ body {
     color: var(--color-text-blue);
     border-radius: 100%;
     outline: 0;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
   }
   
   footer .quick-links {
@@ -224,16 +334,22 @@ body {
   }
   
   .copyright {
-    color: white;
+    color: var(--color-white);
   }
   
   .fa-ellipsis-h {
-    color: white;
+    color: var(--color-white);
     padding: 2rem 0;
   }
 
-  
 @media only screen and (max-width: 40em) {
+    .right-img {
+      width: 80vh;
+      opacity: 0.35;
+    }
+    .right-cont {
+      margin-top: 0vh !important;
+    }
     .about-img {
         width: 75vw;
         padding: 40px 0px;
