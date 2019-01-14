@@ -38,12 +38,24 @@ input {
   margin: 30px 0;
 }
 
+.white {
+  color: var(--color-white) !important;
+}
+
 .instagram-row {
   background-color: var(--color-bg);
 }
 
+.episodes-left {
+  background-color: var(--color-text-blue);
+}
+
+.episodes-right {
+  background-color: var(--color-text-blue);
+}
+
 .episodes-row {
-  background-color: white;
+  background-color: pink;
 }
 
 @font-face {
@@ -132,6 +144,10 @@ input {
 
   ul {
     margin-bottom: 0 !important;
+  }
+
+  .first-row {
+    height: 100vh;
   }
 
   .body-text {
@@ -352,10 +368,13 @@ input {
   }
 
 @media only screen and (max-width: 40em) {
+    .home-blurb {
+      margin: 0 20vh 0 5vh;
+    }
     .right-img {
       height: 100vh;
       width: auto;
-      opacity: 0.4;
+      opacity: 0.3;
       z-index: -500;
     }
     .right-cont {

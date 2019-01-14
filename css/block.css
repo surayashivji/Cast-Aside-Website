@@ -258,7 +258,8 @@ body {
 		margin: 0.5em 1em 0.25em 0;
 	}
 	.content--full {
-		min-height: 0;
+		min-height: 200px;
+		margin-bottom: 25px;
 	}
 	.content__title {
 		font-size: 4.1em;
