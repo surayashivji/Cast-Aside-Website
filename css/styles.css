@@ -34,8 +34,7 @@ input {
 }
 
 .home-container {
-  padding: 0 8vw;
-  margin: 30px 0;
+  /* margin: 30px 0; */
 }
 
 .white {
@@ -47,15 +46,20 @@ input {
 }
 
 .episodes-left {
-  background-color: var(--color-text-blue);
+  /* background-color: var(--color-text-blue); */
+  /* background-color: var(--color-text-blue); */
+  padding: 100px 0px;
 }
 
 .episodes-right {
-  background-color: var(--color-text-blue);
+  background-color: var(--color-bg);
+  padding: 100px 0px;
 }
 
 .episodes-row {
-  background-color: pink;
+  /* padding: 100px 0px;
+  background-color: transparent; */
+  /* clear:both; */
 }
 
 @font-face {
@@ -134,7 +138,7 @@ input {
   }
 
   .right-img {
-    width: 50vw;
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
@@ -147,7 +151,7 @@ input {
   }
 
   .first-row {
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .body-text {
@@ -158,11 +162,12 @@ input {
   }
 
   .home-blurb {
-    margin: 0 15vh;
+    margin: 5vh 18vh;
     font-family: var(--font-text);
     color: var(--color-text);
-    font-size: 1.75rem;
+    font-size: 2rem;
     line-height: 1.75;
+    text-align: left;
   }
 
   .about-img {
@@ -369,7 +374,10 @@ input {
 
 @media only screen and (max-width: 40em) {
     .home-blurb {
-      margin: 0 20vh 0 5vh;
+      margin: 5vh 7vh 0 0;
+      width: 200px;
+      font-size: 1.5rem;
+      line-height: 1.65;
     }
     .right-img {
       height: 100vh;

@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/block.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this website in a modern browser that supports CSS Variables.");</script>
 </head>
 
@@ -47,32 +48,39 @@
                         <div id="rev-2" class="content__title__inner content-small content__title__inner--offset-1">by
                             jameel shivji</div>
                     </h2>
+                    <div class="home-blurb">
+                        Getting discovered is overrated. Welcome to Cast Aside, a podcast that celebrates the messiness of being human.
+                    </div>
                 </section>
-                <div class="home-blurb">
-                    Welcome to the enwr been working in the entertainment industry for 5
-                    years. Welcome to the enwr been working in the entertainment industry for 5
-                    years.
-                </div>
             </div>
         </div>
         <div class="home-container episodes-row">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="small-title white">
-                        LATEST EPISODES
-                    </div>
-                    <div class="medium-title white">
-                        See What's New
-                    </div>
+                <div class="col-md-6 episodes-left">
+                    <section class="content content--full flexy flexy--row">
+                        <h2 class="content__title content__title--medium content__title--half content__title--right">
+                            <div id="rev-10" class="content__title__inner">fresh meerkats dig</div><br/>
+                            <div id="rev-11" class="content__title__inner content__title__inner--offset-2">team play</div>
+                        </h2>
+                    </section>
                 </div>
                 <div class="col-md-6 episodes-right">
-                        <div class="small-title white">
-                            LATEST EPISODES
-                        </div>
-                        <div class="medium-title white">
-                            See What's New
-                        </div>
-                    </div>
+                    <a href="sketches/week_01/index.html" class="tilter tilter--1">
+                        <figure class="tilter__figure">
+                            <img class="tilter__image" src="img/hannah.png" alt="Week 1" />
+                            <div class="tilter__deco tilter__deco--shine">
+                                <div></div>
+                            </div>
+                            <figcaption class="tilter__caption">
+                                <h3 class="tilter__title">Hannah Wiser</h3>
+                                <p class="tilter__description date">January 2019</p>
+                            </figcaption>
+                            <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 300">
+                                <path d="M20.5,20.5h250v250h-250V20.5z" />
+                            </svg>
+                        </figure>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="home-container signup">
@@ -153,6 +161,10 @@
         <script src="js/scrollMonitor.js"></script>
         <script src="js/main.js"></script>
         <script src="js/block.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/grid.js"></script>
+        <script src="js/title.js"></script>
+        <script src="js/tilt.js"></script>
         <script type="text/javascript" src="js/jquery.instagramFeed.min.js"></script>
         <script type="text/javascript">
                 (function ($) {
