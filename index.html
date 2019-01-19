@@ -37,9 +37,9 @@
         </nav>
         <div class="row first-row">
             <div class="col-md-6">
-                <div class="right-cont">
-                    <img class="right-img" src="assets/about.png">
-                </div>
+                    <div class="right-cont">
+                        <img class="right-img" src="assets/about.png">
+                    </div>
             </div>
             <div class="col-md-6">
                 <section class="content content--full flexy intro">
@@ -49,17 +49,27 @@
                             jameel shivji</div>
                     </h2>
                     <div class="home-blurb">
-                        Getting discovered is overrated. Welcome to Cast Aside, a podcast that celebrates the messiness of being human.
+                        Getting discovered is overrated. Welcome to Cast Aside, a podcast that celebrates the messiness
+                        of being human.
                     </div>
                 </section>
             </div>
         </div>
         <div class="home-container episodes-row">
             <div class="row">
+                <div class="col-md-12">
+                    <section id="wavebg" class="content-wave content--highlight-wave flexy-wave flexy--center-wave">
+                        <p class="content__highlight-wave">The way to get started is to quit talking and begin doing.<br><span class="tiny-wave">&mdash;Walt Disney</span></p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="home-container episodes-row">
+            <div class="row">
                 <div class="col-md-6 episodes-left">
                     <section class="content content--full flexy flexy--row">
                         <h2 class="content__title content__title--medium content__title--half content__title--right">
-                            <div id="rev-10" class="content__title__inner">fresh meerkats dig</div><br/>
+                            <div id="rev-10" class="content__title__inner">fresh meerkats dig</div><br />
                             <div id="rev-11" class="content__title__inner content__title__inner--offset-2">team play</div>
                         </h2>
                     </section>
@@ -82,7 +92,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="home-container signup">
             <div class="row">
                 <div class="col-md-12">
@@ -165,6 +175,8 @@
         <script src="js/grid.js"></script>
         <script src="js/title.js"></script>
         <script src="js/tilt.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/wave.js"></script>
         <script type="text/javascript" src="js/jquery.instagramFeed.min.js"></script>
         <script type="text/javascript">
                 (function ($) {
@@ -184,6 +196,17 @@
                         });
                     });
                 })(jQuery);
+        </script>
+        <script>
+            var siriWave = new SiriWave({
+                container: document.getElementById('wavebg'),
+                //cover: true,
+                speed: 0.01,
+                color: '#F5DEB3',
+                frequency: 3,
+                amplitude: 0.5,
+                autostart: true
+            });
         </script>
     </main>
 </body>

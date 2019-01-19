@@ -115,6 +115,87 @@ input {
     src: url(../assets/fonts/Florsn41.ttf);
     font-style: normal;
   }
+
+  /* WAVE */
+
+  #wavebg canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .flexy-wave {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flexy--center-wave {
+    justify-content: center;
+  }
+  
+  .tiny-wave {
+    font-size: 50%;
+  }
+  
+  /* Content */
+  .content-wave {
+    position: relative;
+    min-height: 100vh;
+    padding: 15vh 0 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .content--highlight-wave {
+    padding: 0;
+    background: #191970;
+    /* opacity: 0.5; */
+  }
+  
+  
+  .content__highlight-wave {
+    font-size: 2.5em;
+    font-weight: normal;
+    position: relative;
+    max-width: 70%;
+    margin: 0;
+    padding: 4vw;
+    cursor: default;
+    color: white;
+  }
+  
+  #wavebg canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 50em) {
+    .content__highlight-wave {
+      font-size: 1.75em;
+      max-width: 100%;
+      padding: 2em 3vw;
+    }
+    .content--highlight-wave {
+      min-height: 0;
+      padding: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 40em) {
+      #wavebg canvas {
+        opacity: 0.65;
+      }
+  }
+  
   
  .nav-btn-g {
    padding-top: 10px;
@@ -138,9 +219,10 @@ input {
   }
 
   .right-img {
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     left: 0;
+    height: 100vh;
     top: 0;
     margin-top: -10vh;
     z-index: -500;
@@ -380,8 +462,8 @@ input {
       line-height: 1.65;
     }
     .right-img {
-      height: 100vh;
-      width: auto;
+      /* height: 100vh; */
+      width: 100;
       opacity: 0.3;
       z-index: -500;
     }

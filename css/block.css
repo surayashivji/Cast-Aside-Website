@@ -56,13 +56,13 @@ body {
 }
 
 .content--full {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .content.intro {
-	padding-top: 20vh;
+	/* padding-top: 20vh; */
 	height: 100%;
-    min-height: 100vh;
+    min-height: 87vh;
 }
 
 .flexy {
@@ -261,7 +261,7 @@ body {
 	}
 	.content--full {
 		min-height: 200px;
-		margin-bottom: 25px;
+		/* margin-bottom: 25px; */
 	}
 	.content__title {
 		font-size: 4.1em;
