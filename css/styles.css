@@ -13,6 +13,19 @@ body {
     background-color: var(--color-bg);
 }
 
+.content-parallax {
+  /* padding: 0 0 0em; */
+  padding: 5em 3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.content-parallax:not(:first-child) {
+  padding: 2em 0;
+}
+
 .content-input {
   overflow: hidden; 
   text-align: center;
@@ -41,10 +54,6 @@ input {
   color: var(--color-white) !important;
 }
 
-.instagram-row {
-  background-color: var(--color-bg);
-}
-
 .episodes-left {
   padding: 100px 0px;
 }
@@ -53,10 +62,10 @@ input {
   padding: 100px 0px;
 }
 
-.episodes-row {
-  /* padding: 100px 0px;
-  background-color: transparent; */
-  /* clear:both; */
+.instagram_feed {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 35px;
 }
 
 @font-face {
@@ -263,7 +272,7 @@ input {
     font-size: 2rem;
     line-height: 1.50;
     text-align: left;
-    margin-top: 5%;
+    margin-top: 35px;
   }
 
   .home-txt-block {

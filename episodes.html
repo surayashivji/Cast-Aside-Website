@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Episodes</title>
+    <title>Cast Aside Podcast</title>
     <meta name="description" content="Music visualizations by Suraya Shivji." />
     <meta name="keywords" content="music, visualizations, creative code, chrome, generative art, webgl, three.js" />
-    <meta name="author" content="Suraya Shivji" />
+    <meta name="author" content="Jameel Shivji" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
@@ -15,74 +15,92 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/block.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this website in a modern browser that supports CSS Variables.");</script>
 </head>
 
-<body>
-    <nav>
-        <input type="checkbox" id="nav" class="hidden" />
-        <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
-        <div class="nav-container">
-            <ul class="mainmenu-btns">
-                <li><a href="index.html"><img class="nav-logo" src="assets/logo.png"></a></li>
-                <li class="nav-btn-g"><a class="selected" href="episodes.html" href="#">episodes</a></li>
-                <li class="nav-btn-g"><a href="about.html">about</a></li>
-                <li class="nav-btn-g"><a href="contact.html">contact</a></li>
-                <li><a class="subscribe-btn" href="#">subscribe</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="row content-row">
-        <div class="col-md-6 col-sm-12">
-            <div class="about-content">
-                <div class="inner-heading">
-                    <div class="thick-line"></div>
-                    <div class="inner-heading-text">episodes</div>
+<body class="demo-overview">
+    <main>
+        <nav>
+            <input type="checkbox" id="nav" class="hidden" />
+            <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+            <div class="nav-container">
+                <ul class="mainmenu-btns">
+                    <li><a href="index.html"><img class="nav-logo" src="assets/logo.png"></a></li>
+                    <li class="nav-btn-g"><a href="episodes.html" href="#">episodes</a></li>
+                    <li class="nav-btn-g"><a href="about.html">about</a></li>
+                    <li class="nav-btn-g"><a href="contact.html">contact</a></li>
+                    <li><a class="subscribe-btn" href="#">subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row content-row">
+            <div class="col-md-12">
+                <div class="about-content">
+                    <div class="inner-heading">
+                        <div class="thick-line"></div>
+                        <div class="inner-heading-text">episodes</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-        </div>
-    </div>
-    <footer>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 box">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.instagram.com/podcastaside/">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fas fa-podcast"></i>
-                            </a>
-                        </li>
-                    </ul>
+        <div class="home-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <section class="content-parallax">
+                        <!--  -->
+                        <a href="sketches/week_01/index.html" class="tilter tilter--1">
+                            <figure class="tilter__figure">
+                                <img class="tilter__image" src="guests/hannah.png" alt="Week 1" />
+                                <div class="tilter__deco tilter__deco--shine">
+                                    <div></div>
+                                </div>
+                                <figcaption class="tilter__caption">
+                                    <h3 class="tilter__title">Hannah Wiser</h3>
+                                    <p class="tilter__description date"></p>
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 300">
+                                    <path d="M20.5,20.5h250v250h-250V20.5z" />
+                                </svg>
+                            </figure>
+                        </a>
+                        <!--  -->
+                        <a href="sketches/week_01/index.html" class="tilter tilter--1">
+                            <figure class="tilter__figure">
+                                <img class="tilter__image" src="guests/madison.png" alt="Week 1" />
+                                <div class="tilter__deco tilter__deco--shine">
+                                    <div></div>
+                                </div>
+                                <figcaption class="tilter__caption">
+                                    <h3 class="tilter__title">Madison De La Garza</h3>
+                                    <p class="tilter__description date"></p>
+                                </figcaption>
+                                <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 300">
+                                    <path d="M20.5,20.5h250v250h-250V20.5z" />
+                                </svg>
+                            </figure>
+                        </a>
+                    </section>
                 </div>
             </div>
-            <br>
-            <div class="row text-center">
-                <div class="col-md-12 box">
-                    <span class="copyright quick-links">Copyright &copy; Jameel Shivji
-                        <script>document.write(new Date().getFullYear())</script>
-                    </span>
-                </div>
-            </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/charming.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/demo.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/anime.min.js"></script>
+        <script src="js/scrollMonitor.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/block.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/grid.js"></script>
+        <script src="js/title.js"></script>
+        <script src="js/tilt.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/wave.js"></script>
+    </main>
 </body>
 
 </html>
