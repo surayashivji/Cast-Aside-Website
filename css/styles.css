@@ -14,7 +14,6 @@ body {
 }
 
 .content-parallax {
-  /* padding: 0 0 0em; */
   padding: 5em 3em;
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +46,7 @@ input {
 }
 
 .home-container {
-  /* margin: 30px 0; */
+  margin: 30px 0;
 }
 
 .white {
@@ -56,6 +55,10 @@ input {
 
 .episodes-left {
   padding: 100px 0px;
+}
+
+.guest-section {
+  padding: 25px 0px;
 }
 
 .episodes-right {
@@ -161,7 +164,6 @@ input {
   .content--highlight-wave {
     padding: 0;
     background: #191970;
-    /* opacity: 0.5; */
   }
   
   
@@ -237,10 +239,6 @@ input {
     margin-bottom: 0 !important;
   }
 
-  .first-row {
-    /* height: 100vh; */
-  }
-
   .body-text {
       font-family: var(--font-text);
       color: var(--color-text-blue);
@@ -276,7 +274,11 @@ input {
   }
 
   .home-txt-block {
-    margin:  0 0 0 10vw;
+    margin: 0 0 0 10vw;
+  }
+
+  .episodes-txt-block {
+    margin: 0 10vw 0 10vw;
   }
 
   .home-title {
@@ -311,7 +313,6 @@ input {
 
   .light-c {
     color: var(--color-white) !important;
-    text-align: center;
   }
 
   .regular-btn {
@@ -349,14 +350,12 @@ input {
     font-family: var(--font-text);
     color: var(--color-text);
     font-size: 2.75rem;
-    padding-top: 25vh;
   }
 
   .signup {
-    background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,.65)),
     url("../assets/signup.jpeg");
     background-size: cover;
-    padding: 40px;
   }
 
   .instagram_profile_image {
@@ -472,6 +471,25 @@ input {
     outline: 0;
     background-color: var(--color-white);
   }
+
+  ul.guest-social li a {
+    font-size: 25px;
+    line-height: 40px;
+    margin-right: 15px;
+    margin-top: 25px;
+    display: block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: var(--color-text-blue);
+    border-radius: 100%;
+    outline: 0;
+  }
+
+  ul.guest-social li a:focus,
+  ul.guest-social li a:hover {
+    color: black;
+  }
   
   footer .quick-links {
     font-size: 90%;
@@ -497,7 +515,6 @@ input {
       line-height: 1.65;
     }
     .right-img {
-      /* height: 100vh; */
       width: 100;
       opacity: 0.3;
       z-index: -500;

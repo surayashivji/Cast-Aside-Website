@@ -1,17 +1,18 @@
 .tilter {
     display: block;
     position: relative;
-    width: 450px;
-    height: 450px;
-    margin: 1.5em 2.5em;
+    width: 400px;
+    height: 400px;
+    margin: 3.5em 4.5em;
     color: #fff;
     flex: none;
     perspective: 1000px;
-    margin: 1.5em 2.5em;
 }
 
 .tilter-home {
     margin: 0 auto !important;
+    width: 450px !important;
+    height: 450px !important;
 }
 
 .tilter * {
@@ -101,9 +102,9 @@
 }
 
 .tilter__description {
-    margin: 2em 0 0 0;
-    font-size: .85em;
-    letter-spacing: .10em;
+    margin: 1em 0 0 0;
+    font-size: .95em;
+    letter-spacing: .09em;
 }
 
 .tilter--1 .tilter__figure::before {

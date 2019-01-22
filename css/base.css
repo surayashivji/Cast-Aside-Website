@@ -170,21 +170,21 @@ main {
 }
 
 .content__text-link:first-of-type {
-	color: #e51679;
+	color: #3838FF;
 }
 
 .content__text-link:nth-of-type(2) {
-	color: #002df7;
+	color: #31AAE6;
 }
 
 .content__text-link:nth-of-type(3) {
-	color: #00d1d8;
+	color: #5338FF;
 }
 
 .content__text-link:nth-of-type(4) {
-	color: #ff2626;
+	color: #3896FF;
 }
-
+/* 
 .content__text-link:nth-of-type(5) {
 	color: #00f73d;
 }
@@ -207,7 +207,7 @@ main {
 
 .content__text-link:nth-of-type(10) {
 	color: #ff00e7;
-}
+} */
 
 .block[data-fx="1"] a::after,
 a.content__text-link[data-fx="1"]::after {
