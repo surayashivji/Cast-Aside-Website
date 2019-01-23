@@ -26,10 +26,13 @@ body {
 }
 
 .content-input {
-  overflow: hidden; 
+  overflow: hidden;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 20vh;
+  padding: 20vh 0;
+}
+
+.thankyou_message {
+  color: white;
 }
 
 .content-row {

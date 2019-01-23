@@ -170,7 +170,7 @@ main {
 }
 
 .content__text-link:first-of-type {
-	color: #3838FF;
+	color: rgb(56, 93, 255);
 }
 
 .content__text-link:nth-of-type(2) {
@@ -184,31 +184,6 @@ main {
 .content__text-link:nth-of-type(4) {
 	color: #3896FF;
 }
-/* 
-.content__text-link:nth-of-type(5) {
-	color: #00f73d;
-}
-
-.content__text-link:nth-of-type(6) {
-	color: #00e8f7;
-}
-
-.content__text-link:nth-of-type(7) {
-	color: #a753eb;
-}
-
-.content__text-link:nth-of-type(8) {
-	color: #ff2626;
-}
-
-.content__text-link:nth-of-type(9) {
-	color: #eb8e53;
-}
-
-.content__text-link:nth-of-type(10) {
-	color: #ff00e7;
-} */
-
 .block[data-fx="1"] a::after,
 a.content__text-link[data-fx="1"]::after {
 	content: '';
