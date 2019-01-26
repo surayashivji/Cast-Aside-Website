@@ -13,10 +13,6 @@ body {
     background-color: var(--color-bg);
 }
 
-.home-container {
-  margin: 30px 0;
-}
-
 .content-parallax {
   padding: 3em 3em;
   display: flex;
@@ -55,10 +51,6 @@ input {
 
 .home-section {
   padding: 10vh 10vw;
-}
-
-.signup-section {
-  padding: 100px 0px;
 }
 
 .footer-row {
@@ -191,6 +183,9 @@ input {
   }
   
   @media screen and (max-width: 50em) {
+    .instagram_gallery img {
+      width: 40% !important;
+    }
     .content__highlight-wave {
       font-size: 1.50em;
       max-width: 100%;
@@ -333,6 +328,19 @@ input {
     height: 40px;
   }
 
+  .list-input {
+    padding: 10px;
+  }
+
+  .signup {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0,0,0,.40)),
+    url("../assets/signup.jpeg");
+    background-size: cover;
+    background-size: 100%;
+    background-size: auto;
+    background-position: center top;
+  }
+
   .medium-title {
     font-family: var(--font-bold);
     color: var(--color-text);
@@ -343,12 +351,6 @@ input {
     font-family: var(--font-text);
     color: var(--color-text);
     font-size: 2.75rem;
-  }
-
-  .signup {
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,.65)),
-    url("../assets/signup.jpeg");
-    background-size: cover;
   }
 
   .thick-line {
