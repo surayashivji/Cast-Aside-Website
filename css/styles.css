@@ -14,7 +14,7 @@ body {
 }
 
 .content-parallax {
-  padding: 5em 3em;
+  padding: 3em 3em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -35,9 +35,6 @@ body {
   color: white;
 }
 
-.content-row {
-    margin-top: 10vh;
-}
 
 .field {
   margin: 0 20px;
@@ -48,16 +45,12 @@ input {
   width: 200px;
 }
 
-.home-container {
-  margin: 30px 0;
-}
-
 .white {
   color: var(--color-white) !important;
 }
 
 .episodes-left {
-  padding: 100px 0px;
+  padding-top: 100px;
 }
 
 .signup-section {
@@ -69,7 +62,7 @@ input {
 }
 
 .guest-section {
-  padding: 25px 0px;
+  padding-bottom: 25px;
 }
 
 .episodes-right {
@@ -296,14 +289,8 @@ input {
     font-family: var(--font-bold);
     color: var(--color-text);
     text-align: left;
-    font-size: 3.5vw;
-    line-height: 0.7;
-  }
-
-  .about-img {
-      width: 620px;
-      margin: 0 auto;    
-      display: block;
+    font-size: 4em;
+    line-height: 1;
   }
 
   .title-text {
@@ -377,7 +364,7 @@ input {
   .thick-line {
     color: var(--color-text-blue);
     height: 3px;
-    width: 200px;
+    width: 175px;
     background-color: var(--color-text-blue);
     vertical-align: middle;
     display: inline-block;
@@ -392,11 +379,11 @@ input {
   }
 
   .inner-heading {
-      width: 300px;
   }
 
-  .about-content {
-    margin-left: 10vw;
+
+  .content-row {
+    margin: 10vh 10vw 0 10vw;
   }
 
   .nav-logo {
@@ -519,6 +506,10 @@ input {
   }
 
 @media only screen and (max-width: 40em) {
+  .home-title {
+    font-size: 2.5em;
+    line-height: 1;
+  }
     .home-blurb {
       margin: 5vh 7vh 0 0;
       width: 200px;
@@ -533,11 +524,6 @@ input {
     .right-cont {
       margin-top: 0vh !important;
     }
-    .about-img {
-        width: 75vw;
-        padding: 40px 0px;
-    }
-
     .content-row {
         margin-top: 4vh;
     }
