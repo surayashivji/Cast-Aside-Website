@@ -17,9 +17,6 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/block.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
-
-
-
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this website in a modern browser that supports CSS Variables.");</script>
 </head>
 
@@ -69,9 +66,8 @@
             </div>
         </div>
         <div class="home-container">
-            <div class="row">
-                <div class="col-md-6 episodes-left">
-                    <div class="home-txt-block">
+            <div class="row home-section">
+                <div class="col-md-7">
                         <div class="home-title">
                             latest episode
                         </div>
@@ -90,10 +86,9 @@
                         <div class="home-body">
                             Follow Madison <a class="home-lk" target="_blank" href="https://www.instagram.com/maddelagarza/?hl=en"><b>@maddelagarza</b></a>
                         </div>
-                    </div>
                 </div>
-                <div class="col-md-6 episodes-right">
-                    <a href="sketches/week_01/index.html" class="tilter tilter-home">
+                <div class="col-md-5">
+                    <a href="episodes/madison.html" class="tilter tilter-home">
                         <figure class="tilter__figure">
                             <img class="tilter__image" src="guests/madison/madison.png" alt="Week 1" />
                             <div class="tilter__deco tilter__deco--shine">
@@ -114,10 +109,8 @@
         <div class="home-container signup">
             <div class="row">
                 <div class="col-md-12 signup-section">
-                    <div class="home-txt-block">
-                        <div class="home-title light-c">
-                            stay updated
-                        </div>
+                    <div class="home-title light-c">
+                        stay updated
                     </div>
                     <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycby2LhHLWTtXGMCQ13NVmBAEWLVIX6M-S5tQO6BH0j6dnFgA7jVP/exec">
                         <div class="content-input">
@@ -142,15 +135,13 @@
             </div>
         </div>
         <div class="home-container">
-            <div class="row">
-                <div class="col-md-12 instagram-section">
-                    <div class="home-txt-block">
-                        <div class="home-title">
-                            instagram
-                        </div>
-                        <div class="home-body">
-                            Follow us to stay updated on new episodes!
-                        </div>
+            <div class="row home-section">
+                <div class="col-md-12">
+                    <div class="home-title">
+                        instagram
+                    </div>
+                    <div class="home-body">
+                        Follow us to stay updated on new episodes!
                     </div>
                     <div id="instagram-feed1" class="instagram_feed"></div>
                 </div>
@@ -159,7 +150,7 @@
         <footer>
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-12 box">
+                    <div class="col-md-12 footer-row">
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="mailto:jamjamproductionz@gmail.com">
@@ -178,10 +169,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <br>
-                <div class="row text-center">
-                    <div class="col-md-12 box">
+                    <div class="col-md-12 footer-row">
                         <span class="copyright quick-links">Copyright &copy; Jameel Shivji
                             <script>document.write(new Date().getFullYear())</script>
                         </span>

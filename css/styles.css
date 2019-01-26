@@ -13,6 +13,10 @@ body {
     background-color: var(--color-bg);
 }
 
+.home-container {
+  margin: 30px 0;
+}
+
 .content-parallax {
   padding: 3em 3em;
   display: flex;
@@ -49,29 +53,25 @@ input {
   color: var(--color-white) !important;
 }
 
-.episodes-left {
-  padding-top: 100px;
+.home-section {
+  padding: 10vh 10vw;
 }
 
 .signup-section {
   padding: 100px 0px;
 }
 
-.instagram-section {
-  padding-top: 100px;
+.footer-row {
+  margin: 1vh;
 }
 
 .guest-section {
   padding-bottom: 25px;
 }
 
-.episodes-right {
-  padding: 100px 0px;
-}
-
 .instagram_feed {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 35px;
 }
 
@@ -192,7 +192,7 @@ input {
   
   @media screen and (max-width: 50em) {
     .content__highlight-wave {
-      font-size: 1.75em;
+      font-size: 1.50em;
       max-width: 100%;
       padding: 2em 3vw;
     }
@@ -207,7 +207,6 @@ input {
         opacity: 0.65;
       }
   }
-  
   
  .nav-btn-g {
    padding-top: 10px;
@@ -277,12 +276,8 @@ input {
     color: #4141E3;
   }
 
-  .home-txt-block {
-    margin: 0 0 0 10vw;
-  }
-
   .episodes-txt-block {
-    margin: 0 10vw 0 10vw;
+    /* margin: 0 10vw 0 10vw; */
   }
 
   .home-title {
@@ -356,11 +351,6 @@ input {
     background-size: cover;
   }
 
-  .instagram_profile_image {
-    width: 100px;
-    border-radius: 100px;
-  }
-
   .thick-line {
     color: var(--color-text-blue);
     height: 3px;
@@ -401,7 +391,6 @@ input {
   footer {
     padding: 3rem 0 2rem 0;
     background-color: var(--color-text-blue);
-    margin-top: 50px;
     position: relative;
     bottom: 0;
     width: 100%;

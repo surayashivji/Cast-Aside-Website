@@ -120,4 +120,8 @@
         font-size: 2em;
         line-height: 1.1;
     }
+    .tilter-home {
+        width: 300px !important;
+        height: 300px !important;
+    }
  }
