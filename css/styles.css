@@ -20,33 +20,37 @@ body {
   background-color: var(--color-bg);
 }
 .content-parallax {
-  /* padding: 3em 3em; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-.content-parallax:not(:first-child) {
-  /* padding: 2em 0; */
-}
 .content-input {
   overflow: hidden;
-  text-align: center;
-  padding: 20vh 0;
+  text-align: right;
+  padding: 15vh 0 20vh 0;
 }
 .thankyou_message {
   color: white;
+  font-size: 2em;
 }
 .field {
-  margin: 0 20px;
-  display: inline-block;
+  margin: 4em 0;
+}
+.sign-img {
+  bottom: 0 !important;
+  height: 100%;
+  position: absolute;
 }
 input {
-  width: 200px;
+  width: 350px;
 }
 .home-section {
   padding: 10vh 10vw;
+}
+.list-section {
+  padding: 10vh 10vw 0 10vw;
 }
 .footer-row {
   margin: 1vh;
@@ -276,7 +280,7 @@ ul {
 }
 .btn-home {
   font-family: var(--font-text);
-  width: 150px;
+  width: 350px;
   font-size: 1.35rem;
   letter-spacing: 2.5px;
   border-radius: 0px;
@@ -286,14 +290,10 @@ input {
   height: 40px;
 }
 .list-input {
-  padding: 10px;
+  padding: 20px;
 }
 .signup {
-  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0,0,0,.40)), url("../assets/signup.jpeg");
-  background-size: cover;
-  background-size: 100%;
-  background-size: auto;
-  background-position: center top;
+  background-color: #191970;
 }
 .medium-title {
   font-family: var(--font-bold);
@@ -428,6 +428,13 @@ footer .quick-links {
     top: 50%;
     transform: translateY(-50%);
   }
+  .sign-img {
+    display: none;
+    visibility: hidden;
+  }
+  .content-input {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 67em) and (min-width: 41em) {
   .right-img {
@@ -436,6 +443,17 @@ footer .quick-links {
 }
 
 @media only screen and (max-width: 40em)   {
+  .sign-img {
+    display: none;
+    visibility: hidden;
+  }
+  .content-input {
+    padding: 5vh 0;
+    text-align: center;
+  }
+  .field {
+    margin: 2em 0;
+  }
   .overlay-txt {
     position: absolute;
   }
@@ -453,10 +471,10 @@ footer .quick-links {
  }
  .right-img {
    opacity: 0.3;
-  position: absolute;
-  left: 0;
-  height: 100%;
-  top: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 0;
 }
   .content-row {
       margin-top: 4vh;

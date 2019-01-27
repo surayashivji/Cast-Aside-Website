@@ -78,11 +78,6 @@ a:focus {
 	outline: none;
 }
 
-main {
-	position: relative;
-	width: 100%;
-}
-
 .message {
 	background: #e47073;
 	color: #fff;
