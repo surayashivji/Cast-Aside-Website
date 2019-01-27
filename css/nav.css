@@ -1,15 +1,17 @@
 nav {
+	position: absolute;
+	right: 0;
+	top: 0;
 	padding: 30px;
+	z-index: 10000000;
 }
 
 nav ul {
-	float: right;
 	padding-right: 50px;
 }
 
 nav ul li {
 	display: inline-block;
-	float: left;
 	padding: 0px 20px;
 }
 
