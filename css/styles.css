@@ -30,7 +30,7 @@ body {
 }
 .content-input {
   overflow: hidden;
-  text-align: right;
+  text-align: center;
   padding: 15vh 0 20vh 0;
 }
 .thankyou_message {
@@ -38,7 +38,7 @@ body {
   font-size: 2em;
 }
 .field {
-  margin: 4em 0;
+  margin: 3em 0;
 }
 .sign-img {
   bottom: 0 !important;
@@ -295,7 +295,9 @@ input {
   padding: 20px;
 }
 .signup {
-  background-color: #191970;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,.65)),
+  url("../assets/signup.jpeg");
+  background-size: cover;
 }
 .medium-title {
   font-family: var(--font-bold);
