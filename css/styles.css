@@ -9,6 +9,9 @@
 .clearfix:after {
   clear: both;
 }
+.home-row-1 {
+  z-index: -100;
+}
 body {
   --color-bg: #F5DEB3;
   --color-text-blue: #191970;
@@ -19,8 +22,6 @@ body {
   --font-mono: ApercuMono;
   background-color: var(--color-bg);
 }
-
-
 .content-parallax {
   display: flex;
   flex-wrap: wrap;
@@ -498,9 +499,7 @@ footer .quick-links {
 }
 
 #wrap
-{
-min-height: 100%;
-}
+{min-height: 100%;}
 footer
 {
 position: relative;
