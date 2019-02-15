@@ -16,27 +16,34 @@
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <style>
-        html,body
-{
-height:100%;
-}
+        html,
+        body {
+            height: 100%;
+        }
     </style>
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this website in a modern browser that supports CSS Variables.");</script>
 </head>
 
 <body>
-    <nav>
-        <input type="checkbox" id="nav" class="hidden" />
-        <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
-        <div class="nav-container">
-            <ul class="mainmenu-btns">
-                <li class="nav-btn-g"><a href="episodes.html" href="#">episodes</a></li>
-                <li class="nav-btn-g"><a href="about.html">about</a></li>
-                <li class="nav-btn-g"><a class="selected" href="contact.html">contact</a></li>
-                <li><a class="subscribe-btn" href="#">subscribe</a></li>
-            </ul>
+    <div class="row content-rownav">
+        <div class="col-md-3">
+            <a href="index.html"><img src="assets/logo.png" class="logo" align="center" /></a>
         </div>
-    </nav>
+        <div class="col-md-9">
+            <nav>
+                <input type="checkbox" id="nav" class="hidden" />
+                <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+                <div class="nav-container">
+                    <ul class="mainmenu-btns">
+                        <li class="nav-btn-g"><a href="episodes.html" href="#">episodes</a></li>
+                        <li class="nav-btn-g"><a href="about.html">about</a></li>
+                        <li class="nav-btn-g"><a href="contact.html" class="selected">contact</a></li>
+                        <li><a class="subscribe-btn" href="#">subscribe</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
     <div id="wrap">
         <div class="row content-row">
             <div class="col-md-6 col-sm-12">
@@ -52,7 +59,8 @@ height:100%;
                     old, her views on social media, and her take on Netflix’s 13 Reasons Why.
                 </div>
                 <div class="home-body">
-                    Business Inquiries: <a class="home-lk" href="mailto:jamjamproductionz@gmail.com"><b>jamjamproductionz@gmail.com</b></a>
+                    Business Inquiries: <a class="home-lk"
+                        href="mailto:jamjamproductionz@gmail.com"><b>jamjamproductionz@gmail.com</b></a>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">

@@ -2,7 +2,7 @@ nav {
 	position: absolute;
 	right: 0;
 	top: 0;
-	padding: 30px;
+	/*padding: 30px;*/
 	z-index: 10000000;
 }
 
@@ -38,8 +38,16 @@ nav ul li a:hover {
     text-decoration: underline;
     color: var(--color-text-blue);
 }
-
+.logo{
+	max-width:100px;
+}
 @media screen and (max-width: 560px) {
+	.logo{
+		max-width:50px;
+	}
+	.nav{
+		padding:0px;
+	}
 	.nav-container {
 		position: fixed;
 		top: 0;

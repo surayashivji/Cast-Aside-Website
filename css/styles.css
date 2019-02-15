@@ -11,6 +11,7 @@
 }
 .home-row-1 {
   z-index: -100;
+ 
 }
 body {
   --color-bg: #F5DEB3;
@@ -326,7 +327,7 @@ input {
   padding-left: 5px;
 }
 .content-row {
-  margin: 15vh 10vw 0 10vw;
+  margin: 10vh 10vw 0 10vw;
 }
 .content-row-eps {
   margin: 0 2vw;
@@ -482,7 +483,7 @@ footer .quick-links {
     top: 0;
 }
 .content-row {
-  margin: 15vh 3vw 0 3vw;
+  margin: 5vh 3vw 0 3vw;
 }
 .body-text {
   font-size: 1.5rem;
@@ -503,4 +504,7 @@ footer .quick-links {
 footer
 {
 position: relative;
+}
+.content-rownav {
+margin: 10px 2vw 0 10vw;
 }
