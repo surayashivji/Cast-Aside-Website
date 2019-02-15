@@ -51,7 +51,7 @@ input {
   width: 350px;
 }
 .home-section {
-  padding: 10vh 10vw;
+  padding: 10vh 5vw;
 }
 .list-section {
   padding: 10vh 10vw 0 10vw;
@@ -66,6 +66,13 @@ input {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 35px;
+}
+.podcast-embed {
+  padding: 15px 0px;
+}
+.podcast-embed-home {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
 }
 @font-face {
   font-family: ApercuRegular;
@@ -449,6 +456,11 @@ footer .quick-links {
 }
 
 @media only screen and (max-width: 40em)   {
+  .content__text-link {
+		pointer-events: none !important;
+		cursor: default !important;
+		text-decoration: none !important;
+	}
   .sign-img {
     display: none;
     visibility: hidden;
