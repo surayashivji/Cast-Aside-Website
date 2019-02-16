@@ -42,7 +42,7 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 560px) {
 	.logo{
-		max-width:50px;
+		max-width: 80px;
 	}
 	.nav{
 		padding:0px;
