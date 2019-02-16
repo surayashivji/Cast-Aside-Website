@@ -512,7 +512,9 @@ footer .quick-links {
 }
 
 #wrap
-{min-height: 100%;}
+{
+  min-height: 100%;
+}
 footer
 {
 position: relative;
