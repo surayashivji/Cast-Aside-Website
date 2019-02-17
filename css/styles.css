@@ -202,10 +202,9 @@ input {
 }
 .content-intro {
   position: relative;
-  height: 100vh;
-  display: table-cell;
   vertical-align: middle;
-  z-index: 1000;
+  margin-top:225px;
+  
 }
 .subscribe-btn:hover {
   color: var(--color-bg);
@@ -513,7 +512,6 @@ footer .quick-links {
   padding-top: 50px;
  }
 }
-
 #wrap
 {
   min-height: 100%;
@@ -524,4 +522,8 @@ position: relative;
 }
 .content-rownav {
   margin: 10px 2vw 0 10vw;
+}
+.nav-home1
+{
+  margin: 10px 2.8vw 0 0;
 }
