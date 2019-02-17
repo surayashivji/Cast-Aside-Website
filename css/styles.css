@@ -264,7 +264,7 @@ ul {
   color: var(--color-text);
   font-size: 5rem;
   padding: 30px 0px;
-  background-color: #f9ddad;
+  /*background-color: #f9ddad;*/
 }
 .small-title {
   font-family: var(--font-mono);
@@ -527,3 +527,6 @@ position: relative;
 {
   margin: 10px 2.8vw 0 0;
 }
+.subscribe-btn2{
+		display:none;
+	}

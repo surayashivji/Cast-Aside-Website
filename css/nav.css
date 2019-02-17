@@ -54,8 +54,9 @@ nav ul li a:hover {
 		width: 100%;
 		z-index: -1000000;
 		background: var(--color-text-blue);
-		opacity: 0;
-		transition: all 0.2s ease;
+		/*opacity: 0;*/
+		visibility:hidden;
+		/*transition: all 0.2s ease;*/
 	}
 	.nav-container ul {
 		position: absolute;
@@ -70,7 +71,7 @@ nav ul li a:hover {
 		text-align: right;
 		margin-bottom: 10px;
 	}
-	.nav-container ul li:nth-child(1) a {
+	/*.nav-container ul li:nth-child(1) a {
 		transition-delay: 0.2s;
 	}
 	.nav-container ul li:nth-child(2) a {
@@ -81,18 +82,25 @@ nav ul li a:hover {
 	}
 	.nav-container ul li:nth-child(4) a {
 		transition-delay: 0.5s;
-	}
+	}*/
 	.nav-container ul li:not(:first-child) {
 		margin-left: 0;
 	}
+	.subscribe-btn{
+		display:none;
+	}
+	.subscribe-btn2{
+		display:block;
+	}
 	.nav-container ul li a {
 		padding: 10px 25px;
-		opacity: 0;
+		/*opacity: 0;*/
+		visibility:hidden;
 		color: var(--color-bg);
 		font-size: 24px;
 		font-weight: 600;
-		transform: translateY(-20px);
-		transition: all 0.2s ease;
+		/*transform: translateY(-20px);
+		transition: all 0.2s ease;*/
     }
     nav ul li a:hover {
         text-decoration: underline;
@@ -152,12 +160,14 @@ nav ul li a:hover {
 
 #nav:checked~.nav-container {
 	z-index: 9990;
-	opacity: 1;
-}
+	/*opacity: 1;*/
+	visibility:visible;
+	}
 
 #nav:checked~.nav-container ul li a {
-	opacity: 1;
-	transform: translateY(0);
+	/*opacity: 1;*/
+	visibility:visible;
+	/*transform: translateY(0);*/
 }
 
 .hidden {
