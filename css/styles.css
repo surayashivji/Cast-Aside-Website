@@ -289,6 +289,7 @@ ul {
   border-color: var(--color-text-blue);
 }
 .btn-home {
+  background-color: white;
   font-family: var(--font-text);
   width: 350px;
   font-size: 1.35rem;
