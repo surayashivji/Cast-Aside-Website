@@ -119,6 +119,9 @@ input {
   src: url(../assets/fonts/Florsn41.ttf);
   font-style: normal;
 }
+.mini-embed {
+  width: 70%;
+}
 /* WAVE */
 #wavebg canvas {
   position: absolute;
@@ -237,7 +240,7 @@ ul {
   margin-top: 35px;
 }
 .home-blurb {
-  margin: 5vh 9vw;
+  margin: 5vh 9vw 1vh 9vw;
   font-family: var(--font-text);
   color: var(--color-text);
   font-size: 2rem;
@@ -455,6 +458,10 @@ footer .quick-links {
 }
 
 @media only screen and (max-width: 40em)   {
+  .mini-embed {
+    width: 250px;
+    margin-left: 9vw;
+  }
   .btn-home {
     width: 300px;
   }
@@ -489,6 +496,7 @@ footer .quick-links {
       line-height: 1;
  }
   .home-blurb {
+      margin: 5vh 9vw 0 9vw;
       width: 200px;
       font-size: 1.5rem;
       line-height: 1.65;
