@@ -120,7 +120,7 @@ input {
   font-style: normal;
 }
 .mini-embed {
-  width: 70%;
+  width: 65%;
 }
 /* WAVE */
 #wavebg canvas {
@@ -206,7 +206,7 @@ input {
 .content-intro {
   position: relative;
   vertical-align: middle;
-  margin-top:225px;
+  margin-top: 225px;
 }
 .subscribe-btn:hover {
   color: var(--color-bg);
@@ -456,10 +456,18 @@ footer .quick-links {
     height: 100%;
   }
 }
-
+.only-mobile-lol {
+  display: none;
+  visibility: hidden;
+}
 @media only screen and (max-width: 40em)   {
+  .only-mobile-lol {
+    display: block;
+    visibility: visible;
+    margin-top: 25px;
+  }
   .mini-embed {
-    width: 250px;
+    width: 295px;
     margin-left: 9vw;
   }
   .btn-home {
