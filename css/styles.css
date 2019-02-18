@@ -204,7 +204,6 @@ input {
   position: relative;
   vertical-align: middle;
   margin-top:225px;
-  
 }
 .subscribe-btn:hover {
   color: var(--color-bg);
@@ -480,6 +479,7 @@ footer .quick-links {
   }
   .content-intro {
     height: 50vh;
+    margin-top: 45px;
   }
   .home-title {
       font-size: 2.5em;
