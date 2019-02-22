@@ -173,6 +173,9 @@ input {
   width: 100%;
   height: 100%;
 }
+.instagram_gallery img {
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+}
 @media screen and (max-width: 50em) {
   .instagram_gallery img {
       width: 40% !important;
