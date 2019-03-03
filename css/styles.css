@@ -252,6 +252,7 @@ ul {
 }
 .home-lk {
   color: var(--color-text-blue);
+  font-weight: bold;
 }
 .home-lk:hover {
   text-decoration: none;
@@ -388,6 +389,7 @@ ul.social-buttons {
 ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: var(--color-white);
 }
+
 ul.social-buttons li a {
   font-size: 20px;
   line-height: 40px;
