@@ -250,6 +250,16 @@ ul {
   line-height: 1.75;
   text-align: left;
 }
+.podcast-lookup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 550px;
+}
+.listen-on {
+  margin: 0 3%;
+}
 .home-lk {
   color: var(--color-text-blue);
   font-weight: bold;
@@ -310,8 +320,7 @@ input {
   padding: 20px;
 }
 .signup {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,.65)),
-  url("../assets/signup.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,.65)),    url("../assets/signup.jpeg");
   background-size: cover;
 }
 .medium-title {
@@ -441,6 +450,12 @@ footer .quick-links {
 }
 
 @media only screen and (max-width: 75em) and (min-width: 41em) {
+  .podcast-lookup {
+    height: 350px;
+  }
+  .listen-on {
+    margin: 0 1%;
+  }
   .right-img {
     opacity: 0.3;
     left: 0;
@@ -466,6 +481,10 @@ footer .quick-links {
   visibility: hidden;
 }
 @media only screen and (max-width: 40em)   {
+  .signup {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,.65)),    url("../assets/signup2.jpg");
+    background-size: cover;
+  }
   .only-mobile-lol {
     display: block;
     visibility: visible;
@@ -491,7 +510,7 @@ footer .quick-links {
     visibility: hidden;
   }
   .content-input {
-    padding: 5vh 0;
+    padding: 4vh 0;
     text-align: center;
   }
   .field {
@@ -601,6 +620,13 @@ nav ul li a:hover {
 	max-width: 120px;
 }
 @media screen and (max-width: 560px) {
+  .podcast-lookup {
+    height: 150px;
+    margin-bottom: 50px;
+  }
+  .listen-on {
+    margin: 0 0;
+  }
 	.logo{
 		max-width: 80px;
 	}
